@@ -1,0 +1,15 @@
+.skills {
+  margin-bottom: 4rem;
+}
+
+.skill {
+  margin: 3rem 0;
+}
+
+.titleSkill {
+  display: flex;
+}
+
+.titleSkill h3 {
+  margin-left: .5rem;
+}

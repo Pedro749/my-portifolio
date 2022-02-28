@@ -1,0 +1,23 @@
+.home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.divImg {
+  background: #111; 
+  border-radius: 50%;
+  position: relative;
+}
+
+.img {
+  display: block;
+  width: 220px;
+  height: 220px;
+}
+
+.homeSection {
+  margin-bottom: 5rem;
+}

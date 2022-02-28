@@ -1,0 +1,23 @@
+.project {
+  margin: 2rem 0rem 5rem 0rem ;
+}
+
+.titleProject {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.titleProject h3 {
+  margin-right: .8rem;
+}
+
+.titleProject p::before {
+  content: '- ';
+  margin-right: .5rem;
+}
+
+.description {
+  max-width: 45rem;
+  margin: 1rem 0;
+}

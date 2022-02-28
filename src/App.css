@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&family=Roboto:wght@100;400;700&family=Spectral:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  padding-top: 2rem;
+  margin: 0px;
+  color: #fff;
+  background: #111;
+  --type-first: 'Montserrat', sans-serif;
+  font-family: var(--type-first); 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, 
+h2, 
+h3, 
+h4, 
+p {
+  margin: 0px;
+} 
+
+a {
+  text-decoration: none;
+  color: #7100FF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul, li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px ;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  display: block;
+  max-width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+button, input {
+  display: block;
+  font-size: 1rem;
+  font-family: var(--type-first);
+}
+
+.container {
+  max-width: 60rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.mainContainer {
+  margin-top: 6rem;
+}
+
+.title {
+  font-family: var(--type-first);
+  line-height: 1;
+  font-size: 3rem;
+  margin: 1rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.title::after {
+  content: '';
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #7100FF;
+  position: absolute;
+  top: 0px;
+  left: -5px;
+  border-radius: .2rem;
+  z-index: -1;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: .5rem 0  .7rem 0;
+}
+
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeft .3s forwards;
+}
+
+@keyframes animeLeft {
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: initial;
   }
 }

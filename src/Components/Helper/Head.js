@@ -1,0 +1,14 @@
+import React from 'react';
+
+const Head = (props) => {
+  React.useEffect(() => {
+    document.title = props.title + ' | Portifolio';
+    document.querySelector("meta[name='description']")
+    .setAttribute('content', props.descrption || '');
+  }, [props])
+  return (
+    <></>
+  );
+}
+
+export default Head;

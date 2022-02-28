@@ -1,0 +1,20 @@
+.contact {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title h3 {
+  margin-left: .7rem;
+}
+
+.social {
+  margin-bottom: 2rem;
+}

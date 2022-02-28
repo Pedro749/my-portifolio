@@ -1,0 +1,45 @@
+.itemList {
+  padding: 1rem 0;
+  margin: 1rem 0;
+  border-bottom: 1px solid #fff;
+}
+
+.sub {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.language {
+  position: relative;
+  margin-left: 24px;
+  cursor: pointer;
+}
+
+.language::before {
+  position: absolute;
+  left: -25px;
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url('../../Assets/seta.png');
+  transition: all .4s;
+}
+
+.language.actives::before {
+  transform: rotate(90deg);
+ }
+ 
+.use {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  max-height: 0;
+  opacity: 0;
+  transition: all .3s;
+}
+
+.use.active {
+  max-height: 200px;
+  opacity: 1;
+}
+
