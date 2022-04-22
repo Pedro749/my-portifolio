@@ -26,7 +26,6 @@ This is a project made in React, for study, and it is a portfolio that contains 
 
 ## Live Demo
 
-<iframe src="https://pedro-portifolio.herokuapp.com/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="800px" allowfullscreen></iframe>
 
 ### Installing
 
