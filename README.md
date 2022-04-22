@@ -16,19 +16,19 @@ It is a project to practice. A bank can create a user account, deposit, withdraw
 
 ## Technologies 🐱‍🏍🎂
 
-- [ESlint](https://eslint.org/) - Linter
-- [Prettier](https://prettier.io/) - Code Formatter
-- [React](https://pt-br.reactjs.org/)
+- [React](https://pt-br.reactjs.org/) - Library Javascript
 - [React-dom](https://www.npmjs.com/package/react-dom)
 - [history](https://www.npmjs.com/package/history)
 - [React-router-dom](https://www.npmjs.com/package/react-router-dom)
-- [Heroku](https://heroku.com/)
+- [Heroku](https://heroku.com/) - Cloud hosting
+- [ESlint](https://eslint.org/) - Linter
+- [Prettier](https://prettier.io/) - Code Formatter
+
 
 
 ### Installing
 
 **Installing dependencies**
-
 
 ```bash
 npm install
