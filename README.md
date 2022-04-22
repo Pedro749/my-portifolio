@@ -12,7 +12,7 @@
    
 ## :notebook: About this Project
 
-It is a project to practice. A bank can create a user account, deposit, withdraw and make transactions for other accounts
+This is a project made in React, for study, and it is a portfolio that contains my skills 
 
 ## Technologies 🐱‍🏍🎂
 
