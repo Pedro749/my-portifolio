@@ -24,7 +24,7 @@ This is a project made in React, for study, and it is a portfolio that contains 
 - [ESlint](https://eslint.org/) - Linter
 - [Prettier](https://prettier.io/) - Code Formatter
 
-##  [Demo](/https://pedro-portifolio.herokuapp.com) 
+## Demo
 
 ![image](https://user-images.githubusercontent.com/69980288/164790754-51722450-f044-4c5a-9319-d2b94de5277e.png)
 
