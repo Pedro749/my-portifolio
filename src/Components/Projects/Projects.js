@@ -69,7 +69,6 @@ const Projects = () => {
         })
       }
       
-      
     </section>
   );
 };
