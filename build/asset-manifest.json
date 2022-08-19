@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8124ed79.css",
+    "main.js": "/static/js/main.f3a13185.js",
+    "static/media/MataMosquito.png": "/static/media/MataMosquito.d0e57a3c29ce23401381.png",
+    "static/media/Dogs.png": "/static/media/Dogs.d481b0b1d82973e5a18c.png",
+    "static/media/listProducts.png": "/static/media/listProducts.5bb0a3425d9136026580.png",
+    "static/media/animaisFantasticos.png": "/static/media/animaisFantasticos.27a73a0ba6fb32e6667a.png",
+    "static/media/profile.png": "/static/media/profile.9e86894f9bbe7711933d.png",
+    "static/media/jogoNavinha.png": "/static/media/jogoNavinha.8fe0565e14442a2be287.png",
+    "static/media/github.svg": "/static/media/github.ddaa3a326837b70697061041fca9493c.svg",
+    "index.html": "/index.html",
+    "main.8124ed79.css.map": "/static/css/main.8124ed79.css.map",
+    "main.f3a13185.js.map": "/static/js/main.f3a13185.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8124ed79.css",
+    "static/js/main.f3a13185.js"
+  ]
+}

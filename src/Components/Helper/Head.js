@@ -1,11 +1,14 @@
-import React from 'react';
+import { useEffect } from "react";
 
 const Head = (props) => {
-  React.useEffect(() => {
+  useEffect(() => {
+
     document.title = props.title + ' | Portifolio';
     document.querySelector("meta[name='description']")
     .setAttribute('content', props.descrption || '');
-  }, [props])
+
+  }, [props]);
+
   return (
     <></>
   );
